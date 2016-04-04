@@ -1,0 +1,13 @@
+<div ng-controller='login' class="row">
+  <form method="post">
+    <div class="form-group">
+      <label for="userName">User Name</label>
+      <input type="text" class="form-control" name="userName" placeholder="user name"  ng-model='userSignin.userName'>
+    </div>
+    <div class="form-group">
+      <label for="passwird">PassWord</label>
+      <input type="text" class="form-control" name="password" placeholder="password?" ng-model='userSignin.password'>
+    </div>
+    <button type="submit" class="btn btn-default" ng-click='loginUser()'>Submit</button>
+  </form>
+</div>

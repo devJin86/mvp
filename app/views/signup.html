@@ -1,0 +1,25 @@
+<div class="row" ng-controller='authController'>
+  <form method="post" >
+    <div class="form-group col-md-5">
+      <label for="firstName">First Name</label>
+      <input type="text" class="form-control" name="firstName" placeholder="First Name" ng-model='newStudent.firstName'>
+    </div>
+    <div class="form-group">
+      <label for="lastName">Last Name</label>
+      <input type="text" class="form-control" name="lastName" placeholder="Last Name" ng-model='newStudent.lastName'>
+    </div>
+    <div class="form-group">
+      <label for="userName">Email Address</label>
+      <input type="email" class="form-control" name="email" placeholder="email" ng-model='newStudent.email'>
+    </div>
+    <div class="form-group">
+      <label for="userName">User Name</label>
+      <input type="text" class="form-control" name="userName" placeholder="user name"  ng-model='newStudent.userName'>
+    </div>
+    <div class="form-group">
+      <label for="passwird">PassWord</label>
+      <input type="text" class="form-control" name="password" placeholder="password?" ng-model='newStudent.password'>
+    </div>
+    <button type="submit" class="btn btn-default" ng-click='createUser()'>Submit</button>
+  </form>
+</div>
