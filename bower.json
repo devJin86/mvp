@@ -1,0 +1,21 @@
+{
+  "name": "blog",
+  "description": "blogging application",
+  "main": "server.js",
+  "authors": [
+    "Jin Bok"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/devJin86/mvp",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.3"
+  }
+}
